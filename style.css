@@ -2,7 +2,7 @@
 
 /* Global styles */
 body {
-    background: linear-gradient(135deg, #3498db, #2ecc71); /* Gradient background */
+    background: linear-gradient(135deg, #db9b34, #648471); /* Gradient background */
     color: #fff; /* Text color for better contrast */
 }
 
@@ -45,6 +45,9 @@ body {
 
 .navbar-nav.ml-auto .login-btn a:hover {
     background-color: #dc3545; /* Change to red on hover */
+}
+.index-page {
+    background: linear-gradient(135deg, #8e44ad, #e74c3c); /* Gradient background for index.html */
 }
 
 /* Index page specific styles */
