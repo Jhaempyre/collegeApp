@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Add custom styles for the circular logo */
+.navbar-brand img {
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    height: 40px; /* Adjust the height as needed */
+    width: 40px;  /* Ensure the width matches the height for a perfect circle */
+}
+
+/* Add styles for the copyright bar */
+.copyright-bar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Add more styles for your project */
