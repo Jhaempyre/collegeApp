@@ -1,6 +1,12 @@
 /* style.css */
 
-/* Add custom styles for the circular logo */
+/* Global styles */
+body {
+    background: linear-gradient(135deg, #3498db, #2ecc71); /* Gradient background */
+    color: #fff; /* Text color for better contrast */
+}
+
+/* Navbar styles */
 .navbar-brand img {
     border-radius: 50%;
     overflow: hidden;
@@ -9,14 +15,14 @@
     width: 40px; /* Adjust the width as needed */
 }
 
-/* Add styles for the copyright bar */
+/* Copyright bar styles */
 .copyright-bar {
     background-color: #f8f9fa;
     padding: 10px 0;
     text-align: center;
 }
 
-/* Add styles for the right-aligned navigation links and login button container */
+/* Navigation links and login button styles */
 .navbar-nav.ml-auto {
     display: flex;
     align-items: center;
@@ -30,31 +36,20 @@
     margin-right: 0;
 }
 
-/* Add styles for the login button container */
-.navbar-nav.ml-auto .login-btn {
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-/* Add styles for the login button */
 .navbar-nav.ml-auto .login-btn a {
-    display: block;
     padding: 8px 16px;
     color: #fff;
     text-decoration: none;
-    transition: background-color 0.3s; /* Add smooth transition */
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
-/* Add hover effect for the login button */
 .navbar-nav.ml-auto .login-btn a:hover {
     background-color: #dc3545; /* Change to red on hover */
 }
-/* style.css */
 
-body {
-    background-color: #f8f9fa;
-}
+/* Index page specific styles */
 
+/* Login page styles */
 .container {
     max-width: 400px;
     margin: auto;
@@ -62,12 +57,12 @@ body {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #007bff;
+    color: #fff;
     text-align: center;
 }
 
