@@ -1,4 +1,4 @@
-/* styles.css */
+/* style.css */
 
 /* Add custom styles for the circular logo */
 .navbar-brand img {
@@ -6,7 +6,7 @@
     overflow: hidden;
     object-fit: cover;
     height: 40px; /* Adjust the height as needed */
-    width: 40px;  /* Ensure the width matches the height for a perfect circle */
+    width: 40px; /* Adjust the width as needed */
 }
 
 /* Add styles for the copyright bar */
@@ -16,4 +16,20 @@
     text-align: center;
 }
 
-/* Add more styles for your project */
+/* Add styles for the right-aligned navigation links and login button */
+.navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav.ml-auto .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav.ml-auto .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav.ml-auto .login-btn {
+    margin-right: 10px;
+}
