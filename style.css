@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-/* Add styles for the right-aligned navigation links and login button */
+/* Add styles for the right-aligned navigation links and login button container */
 .navbar-nav.ml-auto {
     display: flex;
     align-items: center;
@@ -30,6 +30,64 @@
     margin-right: 0;
 }
 
+/* Add styles for the login button container */
 .navbar-nav.ml-auto .login-btn {
-    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* Add styles for the login button */
+.navbar-nav.ml-auto .login-btn a {
+    display: block;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Add smooth transition */
+}
+
+/* Add hover effect for the login button */
+.navbar-nav.ml-auto .login-btn a:hover {
+    background-color: #dc3545; /* Change to red on hover */
+}
+/* style.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
 }
