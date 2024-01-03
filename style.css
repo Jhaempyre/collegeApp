@@ -89,3 +89,26 @@ label {
 .btn-primary:hover {
     background-color: #0056b3;
 }
+
+/* style.css */
+
+/* ... (previous styles) */
+
+/* Login button styles */
+.navbar-nav.ml-auto .login-btn {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.navbar-nav.ml-auto .login-btn a {
+    display: block;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Add smooth transition */
+    background-color: #007bff; /* Default blue background color */
+}
+
+.navbar-nav.ml-auto .login-btn a:hover {
+    background-color: #dc3545; /* Change to red on hover */
+}
