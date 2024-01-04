@@ -112,3 +112,22 @@ label {
 .navbar-nav.ml-auto .login-btn a:hover {
     background-color: #dc3545; /* Change to red on hover */
 }
+
+.google-signup {
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    align-self: center;
+    
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
